@@ -9,3 +9,4 @@ $ ./mvnw clean verify
 $ java -jar target/logging-mask-pii-0.0.1-SNAPSHOT.jar
 ```
 
+![Screenshot](sample_output.png)
