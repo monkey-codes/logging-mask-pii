@@ -94,7 +94,6 @@
                 <groupId>org.jetbrains.kotlin</groupId>
                 <artifactId>kotlin-maven-plugin</artifactId>
                 <configuration>
-<!--                    <output>${project.build.directory}/unwoven-classes</output>-->
                     <args>
                         <arg>-Xjsr305=strict</arg>
                     </args>
@@ -148,37 +147,6 @@
                     </dependency>
                 </dependencies>
             </plugin>
-<!--            <plugin>-->
-<!--&lt;!&ndash;                <groupId>org.codehaus.mojo</groupId>&ndash;&gt;-->
-<!--&lt;!&ndash;                <artifactId>aspectj-maven-plugin</artifactId>&ndash;&gt;-->
-<!--&lt;!&ndash;                <version>1.11</version>&ndash;&gt;-->
-<!--                <groupId>com.github.m50d</groupId>-->
-<!--                <artifactId>aspectj-maven-plugin</artifactId>-->
-<!--                <version>1.11.1</version>-->
-<!--                <configuration>-->
-<!--                    <complianceLevel>1.8</complianceLevel>-->
-<!--                    <source>1.8</source>-->
-<!--                    <target>1.8</target>-->
-<!--                    <showWeaveInfo>true</showWeaveInfo>-->
-<!--                    <verbose>true</verbose>-->
-<!--                    <Xlint>ignore</Xlint>-->
-<!--                    <encoding>UTF-8 </encoding>-->
-<!--                    <weaveDirectories>-->
-<!--                        <weaveDirectory>${project.build.directory}/unwoven-classes</weaveDirectory>-->
-<!--                    </weaveDirectories>-->
-<!--                </configuration>-->
-<!--                <executions>-->
-<!--                    <execution>-->
-<!--                        <phase>process-classes</phase>-->
-<!--                        <goals>-->
-<!--                            &lt;!&ndash; use this goal to weave all your main classes &ndash;&gt;-->
-<!--                            <goal>compile</goal>-->
-<!--                            &lt;!&ndash; use this goal to weave all your test classes &ndash;&gt;-->
-<!--&lt;!&ndash;                            <goal>test-compile</goal>&ndash;&gt;-->
-<!--                        </goals>-->
-<!--                    </execution>-->
-<!--                </executions>-->
-<!--            </plugin>-->
         </plugins>
     </build>
 
