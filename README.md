@@ -1,6 +1,6 @@
 # Masking PII in Logs
 
-Sample code accompanying [Masking PII In Logs](https://blog.monkey.codes/masking-pii-in-logs/).
+Sample code accompanying [Masking PII In Logs](https://johanzietsman.com/masking-pii-in-logs/).
 
 # Running the example
 
